@@ -38,10 +38,10 @@ EXT_FILE=~/dep_ext.txt
 
 This script is made in such a way that one could just list the most extracts and replicats that are needed to get the status 
 
-$ cat ~/dep_rep.txt
+$ cat dep_rep.txt
 MYREP
 
-$ cat ~/dep_ext.txt
+$ cat dep_ext.txt
 MYEXT 
 
 # Example
@@ -62,6 +62,7 @@ machine         aaaaaaaaaaa.deployment.goldengate.ap-mumbai-1.oci.oraclecloud.co
 #########################################################
 
 DEP OGG EXTRACTS
+
 #########################################################
 
 MYEXT current state is "running" last status reported 4 seconds ago
@@ -72,8 +73,11 @@ MYEXT current state is "running" last status reported 4 seconds ago
 #########################################################
 
 DEP OGG REPLICATS
+
 #########################################################
 
 MYREP current state is "running" with last sequence 16155 with offset 349936108 last status reported 6 seconds ago
 "OKNODOT\t.Low watermark position: 236137717131.\nHigh watermark position: 236137717642.\nAt EOF, no more records to process"
 
+
+-- NOTE : the 16155 here means that all the extracts logs are applued in replicats
