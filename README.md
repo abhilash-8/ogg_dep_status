@@ -59,18 +59,18 @@ machine         aaaaaaaaaaa.deployment.goldengate.ap-mumbai-1.oci.oraclecloud.co
 # Sample Output
 
 
---#########################################################
+#########################################################
 DEP OGG EXTRACTS
---#########################################################
+#########################################################
 
 MYEXT current state is "running" last status reported 4 seconds ago
 "OKNODOT\tLag unknown (timestamp mismatch between source and target)."
 [ { "$schema": "ogg:trailPosition", "name": "ER", "offset": 354154108, "path": "//", "sequence": 16155 } ]
 
 
---#########################################################
+#########################################################
 DEP OGG REPLICATS
---#########################################################
+#########################################################
 
 MYREP current state is "running" with last sequence 16155 with offset 349936108 last status reported 6 seconds ago
 "OKNODOT\t.Low watermark position: 236137717131.\nHigh watermark position: 236137717642.\nAt EOF, no more records to process"
