@@ -33,8 +33,8 @@ Usage is $ ./ogg_dep_status.sh
 3) Python 2.7.5 or higher (preferably) to use json.tool
 4) There are two files needed for list of extracts and replicats 
 
-REP_FILE=~/dep_rep.txt
-EXT_FILE=~/dep_ext.txt
+REP_FILE is dep_rep.txt
+EXT_FILE is dep_ext.txt
 
 This script is made in such a way that one could just list the most extracts and replicats that are needed to get the status 
 
@@ -66,8 +66,7 @@ DEP OGG EXTRACTS
 #########################################################
 
 MYEXT current state is "running" last status reported 4 seconds ago
-"OKNODOT\tLag unknown (timestamp mismatch between source and target)."
-[ { "$schema": "ogg:trailPosition", "name": "ER", "offset": 354154108, "path": "//", "sequence": 16155 } ]
+"OKNODOT\t" [ { "$schema": "ogg:trailPosition", "name": "ER", "offset": 354154108, "path": "//", "sequence": 16155 } ]
 
 
 #########################################################
