@@ -60,6 +60,7 @@ machine         aaaaaaaaaaa.deployment.goldengate.ap-mumbai-1.oci.oraclecloud.co
 
 
 #########################################################
+
 DEP OGG EXTRACTS
 #########################################################
 
@@ -69,6 +70,7 @@ MYEXT current state is "running" last status reported 4 seconds ago
 
 
 #########################################################
+
 DEP OGG REPLICATS
 #########################################################
 
