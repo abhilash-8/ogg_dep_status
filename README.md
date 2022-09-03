@@ -1,7 +1,7 @@
 
 
 # ogg_dep_status.sh
-This file basicallly "gets" Deployment Files for OCI OGG ( Oracle Golden Gate ) Deplpyments Replicats or Extracts
+This file basicallly "gets" Deployment status for OCI OGG ( Oracle Golden Gate ) Deplpyments Replicats or Extracts
 
 # Why to use ogg_dep_status.sh
 
@@ -66,7 +66,7 @@ DEP OGG EXTRACTS
 #########################################################
 
 MYEXT current state is "running" last status reported 4 seconds ago
-"OKNODOT\t" [ { "$schema": "ogg:trailPosition", "name": "ER", "offset": 354154108, "path": "//", "sequence": 16155 } ]
+"OKNODOT\t" [ { "$schema": "ogg:trailPosition", "name": "ER", "offset": 354154108, "path": "//", "sequence": 12345 } ]
 
 
 #########################################################
@@ -75,8 +75,8 @@ DEP OGG REPLICATS
 
 #########################################################
 
-MYREP current state is "running" with last sequence 16155 with offset 349936108 last status reported 6 seconds ago
+MYREP current state is "running" with last sequence 12345 with offset 349936108 last status reported 6 seconds ago
 "OKNODOT\t.Low watermark position: 236137717131.\nHigh watermark position: 236137717642.\nAt EOF, no more records to process"
 
 
--- NOTE : the 16155 here means that all the extracts logs are applued in replicats
+-- NOTE : the 12345 here means that all the extracts logs are applued in replicats
